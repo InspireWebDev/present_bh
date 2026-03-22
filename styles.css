@@ -20,7 +20,7 @@ body {
   margin: 0;
   width: 100%;
   min-height: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background: #000;
   color: var(--ink);
   overflow-x: hidden;
@@ -102,7 +102,7 @@ body {
   stroke: var(--stroke);
   stroke-width: 12px;
   paint-order: stroke fill;
-  font-family: "Russo One", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   letter-spacing: 1.6px;
   text-transform: uppercase;
   transform-origin: center;
@@ -132,10 +132,10 @@ body {
 
 .s1-leg-wrap {
   position: absolute;
-  left: -16vw;
-  top: 24vh;
-  width: 78vw;
-  max-width: 500px;
+  left: -30vw;
+  top: 22vh;
+  width: 96vw;
+  max-width: 620px;
   z-index: 3;
 }
 
@@ -147,10 +147,10 @@ body {
 
 .s1-guy-wrap {
   position: absolute;
-  right: -12vw;
-  bottom: 8vh;
-  width: 50vw;
-  max-width: 320px;
+  right: -18vw;
+  bottom: 6vh;
+  width: 64vw;
+  max-width: 420px;
   z-index: 5;
 }
 
@@ -167,7 +167,7 @@ body {
   transform: translateX(-50%);
   margin: 0;
   z-index: 6;
-  font-family: "Russo One", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
   font-size: clamp(28px, 7vw, 46px);
   line-height: 1.05;
@@ -213,8 +213,8 @@ body {
   flex-direction: column;
   gap: 0.15em;
   align-items: center;
-  font-family: "Russo One", sans-serif;
-  font-size: clamp(30px, 7.6vw, 54px);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(22px, 5.8vw, 40px);
   line-height: 1;
   text-align: center;
   color: #fff;
@@ -227,7 +227,7 @@ body {
   position: relative;
   z-index: 3;
   margin: 3vh auto 0;
-  width: min(84vw, 570px);
+  width: min(72vw, 480px);
   aspect-ratio: 3 / 4;
   border-radius: 14px;
   overflow: hidden;
@@ -247,17 +247,17 @@ body {
   position: absolute;
   bottom: 8vh;
   z-index: 6;
-  width: 32vw;
-  max-width: 260px;
+  width: 40vw;
+  max-width: 330px;
 }
 
 .s2-left-wrap {
-  left: -8vw;
+  left: -12vw;
 }
 
 .s2-right-wrap {
-  right: -6vw;
-  bottom: 44vh;
+  right: -10vw;
+  bottom: 41vh;
 }
 
 .s2-left-person,
@@ -315,7 +315,7 @@ body {
 
 .tg-content h3 {
   margin: 0;
-  font-family: "Russo One", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: clamp(56px, 12.8vw, 88px);
   line-height: 0.88;
   text-transform: uppercase;
@@ -342,7 +342,7 @@ body {
   border-radius: 999px;
   color: #fff;
   text-decoration: none;
-  font-family: "Russo One", sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: clamp(30px, 7vw, 52px);
   letter-spacing: 0.4px;
   background: rgba(5, 5, 8, 0.72);
@@ -514,17 +514,17 @@ body {
 
 @media (max-width: 430px) {
   .s1-guy-wrap {
-    width: 56vw;
-    right: -16vw;
+    width: 70vw;
+    right: -22vw;
   }
 
   .s1-leg-wrap {
-    width: 84vw;
-    left: -26vw;
+    width: 105vw;
+    left: -34vw;
   }
 
   .s2-right-wrap {
-    bottom: 42vh;
+    bottom: 40vh;
   }
 
   .tg-content {

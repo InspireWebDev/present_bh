@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Вечеринка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="slides">
+    <section class="slide slide-1 watch-animate is-visible" id="slide-1">
+      <div class="grain"></div>
+      <div class="bg-shape bg-shape-a"></div>
+      <div class="bg-shape bg-shape-b"></div>
+
+      <div class="rings-stack" aria-hidden="true">
+        <svg class="ring ring-bottom" viewBox="0 0 800 800">
+          <defs>
+            <path id="circle-bottom" d="M 400,400 m -320,0 a 320,320 0 1,1 640,0 a 320,320 0 1,1 -640,0"></path>
+          </defs>
+          <text>
+            <textPath href="#circle-bottom" startOffset="0%">ПРИГЛАШЕНИЕ НА ВЕЧЕРИНКУ В ЧЕСТЬ 7 МАЯ • ПРИГЛАШЕНИЕ НА ВЕЧЕРИНКУ • </textPath>
+          </text>
+        </svg>
+
+        <svg class="ring ring-middle" viewBox="0 0 800 800">
+          <defs>
+            <path id="circle-middle" d="M 400,400 m -245,0 a 245,245 0 1,1 490,0 a 245,245 0 1,1 -490,0"></path>
+          </defs>
+          <text>
+            <textPath href="#circle-middle" startOffset="0%">ПРИГЛАШЕНИЕ НА ВЕЧЕРИНКУ • ПРИГЛАШЕНИЕ НА ВЕЧЕРИНКУ • </textPath>
+          </text>
+        </svg>
+
+        <svg class="ring ring-top" viewBox="0 0 800 800">
+          <defs>
+            <path id="circle-top" d="M 400,400 m -170,0 a 170,170 0 1,1 340,0 a 170,170 0 1,1 -340,0"></path>
+          </defs>
+          <text>
+            <textPath href="#circle-top" startOffset="0%">ПРИГЛАШЕНИЕ • ПРИГЛАШЕНИЕ • </textPath>
+          </text>
+        </svg>
+      </div>
+
+      <div class="fly-left s1-leg-wrap">
+        <img class="s1-leg sway-leg" src="photo-output-no-bg-preview-carve.photos 3.png" alt="Нога с бутылкой">
+      </div>
+
+      <div class="fly-right s1-guy-wrap">
+        <img class="s1-guy sway-guy" src="photo-output-no-bg-preview-carve.photos 2.png" alt="Человек">
+      </div>
+
+      <p class="s1-bottom-text fly-up">Подробная информация снизу*</p>
+    </section>
+
+    <section class="slide slide-2 watch-animate" id="slide-2">
+      <div class="grain"></div>
+      <div class="rainbow rainbow-a"></div>
+      <div class="rainbow rainbow-b"></div>
+
+      <h2 class="address fly-top">
+        <span>📍 МЕСТО 📍</span>
+        <span>Уфа, Максимовка</span>
+        <span>Ул. Лучистая, д. 39</span>
+      </h2>
+
+      <div class="map-wrap">
+        <video class="map-video" src="IMG_7962.MOV" autoplay muted loop playsinline preload="auto"></video>
+      </div>
+
+      <div class="fly-left s2-left-wrap">
+        <img class="s2-left-person" src="photo-output-no-bg-preview-carve.photos 6.png" alt="Человек слева">
+      </div>
+
+      <div class="fly-right s2-right-wrap">
+        <img class="s2-right-person" src="photo-output-no-bg-preview-carve.photos 7.png" alt="Человек справа">
+      </div>
+    </section>
+
+    <section class="slide slide-3 watch-animate" id="slide-3">
+      <div class="grain"></div>
+      <div class="flare flare-a"></div>
+      <div class="flare flare-b"></div>
+
+      <img class="s3-top-person fly-down" src="photo-output-no-bg-preview-carve.photos 8.png" alt="Человек сверху">
+
+      <div class="tg-content fade-up">
+        <h3>ВСТУПАЙ<br>В TELEGRAM</h3>
+        <p>Там вся актуальная информация по вечеринке</p>
+        <a href="https://t.me/+ik0ke34WtR01NGZi" class="tg-btn" target="_blank" rel="noopener noreferrer">ПЕРЕЙТИ В ГРУППУ</a>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
